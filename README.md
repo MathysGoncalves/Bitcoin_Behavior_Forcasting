@@ -42,3 +42,9 @@ Nous souhaitions integrer les données liées à des actifs boursiers classique 
 2. Classification binaire du Return du Bitcoin à t+1 (Return > ou < à 0) pour l'achat ou la revente 
 3. Classification multiple du Return du Bitcoin à t+1 (Return =, > ou < à la moyenne des 30 dernieres valeurs de return) pour garder l'achat ou la revente.
 C'est souvent ce dernier element qui n'est pas pris en compte, les frais liés à l'achat et à la vente étant important si de nombreuse achange sont fait, il est important de le prendre en compte. A voir si les performances seront impactées puisque on passe sur de la classification multiple.
+
+
+#### Ajouter de nouvelles features :
+
+1. https://tsfresh.readthedocs.io/en/latest/api/tsfresh.feature_extraction.html
+2. Moving Average 
